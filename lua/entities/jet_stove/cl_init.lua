@@ -42,6 +42,6 @@ function ENT:Draw()
     
 end
 
-net.Receive("doughAdded", function() 
-    status:Remove()
-end)
+-- net.Receive("doughAdded", function() 
+--    status:Remove()
+-- end)
